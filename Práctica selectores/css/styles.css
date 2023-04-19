@@ -1,0 +1,79 @@
+/*Selector Simple Uviversal*/
+*{
+    background-color: pink;
+}
+
+/*Selector Simple de tipo o etiqueta*/
+h1{
+    background-color: white;
+}
+
+/*Selector Simple de atributo de id*/
+#title{
+    background-color: crimson;
+}
+
+/*Selector Simple de clase*/
+.title{
+    background-color: crimson;
+}
+
+/*Otros atributos*/
+    /*[Atributo=valor]*/
+[href="https://www.guiainfantil.com"]{
+    background-color: yellow;
+}
+    /*[Atributos^=valor]*/
+[href^="crece"]{
+    background-color: aqua;
+}
+    /*[Atributo*=valor]*/
+[href*="crianza"]{
+    background-color: green;
+}
+    /*[Atributo$=valor]*/
+[href$="org"]{
+    background-color: blueviolet;
+}
+   /*SWelectores agrupados*/
+.text,
+.text-2,
+.text-4,
+.text-5{
+    background-color: aquamarine;
+}
+    /*Selectores descendientes*/
+div .title-3{
+    background-color: blue;
+}
+    /*Selector de hermano siguiente*/
+.title-4 + .text-4{
+    background-color: fuchsia;
+}
+    /*Selector de hermanos siguientes*/
+.text-5 ~ p {
+    background-color: teal;
+}
+    /*Selector de hijo directo*/
+.container p{
+    background-color: antiquewhite;
+}
+    /*selectores agrupados para colocarle estilo a los h3*/
+.title-4,
+.title-5,
+.title-6,
+.title-7,
+.title-8,
+.title-9{
+    background-color: lightcoral;
+}
+
+h3{
+    background-color:chartreuse
+}
+
+
+
+
+
+

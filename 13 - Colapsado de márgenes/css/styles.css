@@ -1,0 +1,39 @@
+/*
+LOS MARGENES VERTICALES COLAPSAN*/
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color:#fff;
+    margin:0;
+}
+
+.header{
+    background-color: lightcoral;
+    height:100px;
+    margin-bottom:20px;
+    /*overflow:hidden;*/
+    /*paddind-top: 0.1px;*/
+    border-top:0.1px solid lightcoral;
+}
+
+.title{
+    margin:0;
+    margin-top: 30px;
+}
+
+.box-1, 
+.box-2{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 100px;
+    background-color: lightcyan;
+    width:300px;
+    height: 300px;
+}
+

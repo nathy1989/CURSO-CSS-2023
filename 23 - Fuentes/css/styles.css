@@ -1,0 +1,60 @@
+/*
+La tipografia es la ciencia que estudia el diseño y uso de los tipos de letra.
+
+Las fuentes son tipos específicos de letra
+
+Los glifos son cada uno de los dibujos que representan cada símbolo de la fuente, incluidos los espacios.
+
+Los estilos de fuente son las modificaciones que se hacen a las fuentes, como el grosor o la inclinación.
+
+Familia tipografica, son las diferentes fuentes que pertenecen a una misma fuente base.
+
+Cuando usamos una propiedad text-* estamos afectadno a un bloque completo.
+
+Cuando utilizamos una propiedad font-* afectamos a la fuente del texto.
+
+---------------------------------------------------------------
+Iconos: SI vas a usar una gran cantidad de iconos en tu wweb compensa usar la libreria remota. Si sólo usarás unos pocos es mejor descargarlos en formato svgy utilizarlos como imágenes.
+
+Material Icons Outline:
+https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined
+
+Material Icons Two Tone:
+
+
+Material Icons Rounded:
+https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded
+
+Material Icons Sharp
+https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp
+*/
+
+
+@font-face{
+    font-family:"prueba buenas";
+    src:local("Amelinda"), url("../assets/fonts/Amelinda.otf")
+}
+
+body{
+    background-color:#333;
+    color: aliceblue;
+    font-family: "prueba buenas";
+}
+
+.text{
+    text-transform: capitalize;
+    /*writing-mode: vertical-rl;*/
+    word-break: break-all;
+    width: 10px;
+    text-align: center;
+}
+
+.word-container{
+    background-color: lightcoral;
+    height: 200px;
+    text-align: center;
+}
+
+.word{
+    line-height: 100px;
+}

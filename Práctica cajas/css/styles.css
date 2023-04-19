@@ -1,0 +1,19 @@
+
+#container {
+background-color: lightgrey;
+height: 100vh;
+width: 100%;
+margin:auto;
+position: absolute;
+}
+
+.blue-divs {
+height: 100px;
+width: 300px;
+background-color: lightseagreen;
+margin-top:30px;
+margin-left: 25%;
+}
+
+
+

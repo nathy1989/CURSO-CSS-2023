@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+.box{
+    height: 100px;
+    width: 400px;
+}
+
+.box-1{
+    background-color: yellow;
+    z-index: 10;
+}
+
+.img{
+    height:80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 50PX;
+    top:17px;
+    margin-left: 5px;
+}
+
+.box-2{
+    background-color: blue;
+}
+
+.box-3{
+    background-color: red;
+}
+

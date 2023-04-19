@@ -1,0 +1,214 @@
+.bandera {
+      width: 50%;
+      height: 0;
+      padding-bottom: 25%;
+      background-color: #fff;
+      position: relative;
+    }
+
+.bandera::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 7.6923%;
+      background-color: #b22234;
+    }
+    
+.bandera::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 7.6923%;
+      background-color: #b22234;
+    }
+    
+.bandera > div {
+      position: absolute;
+      top: 7.6923%;
+      bottom: 7.6923%;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+    }
+    
+.bandera > div:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 38.8889%;
+      height: 100%;
+      background-color: #b22234;
+    }
+    
+.bandera > div:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 38.8889%;
+      height: 100%;
+      background-color: #b22234;
+    }
+
+
+    .bandera {
+        width: 50%;
+        height: 0;
+        padding-bottom: 25%;
+        background-color: #fff;
+        position: relative;
+      }
+      
+      .bandera::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 7.6923%;
+        background-color: #b22234;
+      }
+      
+      .bandera::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 7.6923%;
+        background-color: #b22234;
+      }
+      
+      .bandera > div {
+        position: absolute;
+        top: 7.6923%;
+        bottom: 7.6923%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+      }
+      
+      .bandera > div:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 38.8889%;
+        height: 100%;
+        background-color: #b22234;
+      }
+      
+      .bandera > div:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 38.8889%;
+        height: 100%;
+        background-color: #b22234;
+      }
+      
+      .estrellas {
+        position: absolute;
+        top: 12.6%;
+        left: 2.2%;
+        width: 40%;
+        height: 70.8%;
+        overflow: hidden;
+      }
+      
+      .estrellas .fila {
+        position: relative;
+        width: 100%;
+        height: 12.5%;
+      }
+      
+      .estrellas .fila:before,
+      .estrellas .fila:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 10.4%;
+        height: 100%;
+        top: 0;
+      }
+      
+      .estrellas .fila:before {
+        left: 0;
+      }
+      
+      .estrellas .fila:after {
+        right: 0;
+      }
+      
+      .estrellas .estrella {
+        position: absolute;
+        display: block;
+        width: 9.6%;
+        height: 100%;
+        margin-left: -4.8%;
+        top: 0;
+        background-color: #fff;
+      }
+      
+      .estrellas .estrella:before,
+      .estrellas .estrella:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 0.25em solid #fff;
+        border-radius: 50%;
+      }
+
+      .estrellas .estrella:before {
+        top: -0.75em;
+        left: 1.5em;
+        border-width: 0.35em 0.45em 0 0.45em;
+        transform: rotate(35deg);
+      }
+      
+      .estrellas .estrella:after {
+        top: -0.75em;
+        right: 1.5em;
+        border-width: 0.35em 0 0 0.45em;
+        transform: rotate(-35deg);
+      }
+      
+      .estrella1 {
+        left: 4%;
+        top: 2.2%;
+      }
+      
+      .estrella2 {
+        left: 12.8%;
+        top: 9.4%;
+      }
+      
+      .estrella3 {
+        left: 7.4%;
+        top: 16.4%;
+      }
+      
+      .estrella4 {
+        left: 17.2%;
+        top: 22.6%;
+      }
+      
+      .estrella5 {
+        left: 12.5%;
+        top: 29.6%;
